@@ -1,0 +1,26 @@
+a[href^="https://www.google.com/"] { 
+    color: green; 
+}
+  
+a[target] {
+    color: red;
+}
+p:nth-last-child(4) {
+    color:blue;
+}
+
+p:nth-child(4){
+    color:red;
+}
+
+p:nth-last-child(5){
+    color:red;
+}
+#first-div>p::after {
+    content: " - NEW";
+    color:yellow;
+}
+body>p:last-of-type:hover {
+    font-style: italic;
+    cursor: pointer;
+}
